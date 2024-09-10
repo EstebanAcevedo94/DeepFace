@@ -54,7 +54,7 @@ while True:
             race = info['dominant_race']
 
             # Género
-            gen = list(info['gender'].keys())[0]  # Obtener el primer género con mayor probabilidad
+            gen = info['dominant_gender']  # Obtener el género con mayor probabilidad
             #print(str(gen) + " de "+ str(edad) + " años de edad, con estado de animo " + str(emociones) + " de etnia " + str(race))
 
             #Traducimos
